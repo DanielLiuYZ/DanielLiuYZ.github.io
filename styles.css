@@ -1,0 +1,89 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#foo {
+    color: red;
+}
+
+.baz {
+    color: orange;
+}
+
+/* div {
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    border: 3px solid black;
+} */
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+ul > ol {
+    color: blue;
+}
+
+button {
+    width: 50px;
+    height: 20px;
+    font-size: 18;
+    background-color: pink;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+
+@media (min-width: 600px) {
+    body {
+        background-color: aliceblue;
+    }
+}
+
+@media (max-width: 599px) {
+    body {
+        background-color: white;
+    }
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    background-color: beige;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px
+}
+
+#grid {
+    background-color: cadetblue;
+    display: grid;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+}
