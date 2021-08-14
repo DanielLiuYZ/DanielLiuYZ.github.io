@@ -87,3 +87,45 @@ button:hover {
     padding: 20px;
     font-size: 20px;
 }
+
+
+/* new part */
+#header {
+    display: grid;
+    background-color: cadetblue;
+    height: 40px;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-template-columns: 150px 140px 140px 140px 140px auto;
+}
+
+#header > a:link {
+    text-decoration: none;
+}
+
+#header-title {
+    background-color: cadetblue;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+.header-item {
+    background-color: cadetblue;
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.header-item:hover {
+    background-color: rgb(91, 136, 138);
+}
