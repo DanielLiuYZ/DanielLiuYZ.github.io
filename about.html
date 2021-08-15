@@ -5,6 +5,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="css/font-opensans.css" rel="stylesheet">
+    <link href="css/font-Montserrat.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link href="https://at.alicdn.com/t/font_2745379_leyjvu197or.css" rel="stylesheet">
+
     <style>
         /* postcard */
         #postcard {
@@ -43,6 +54,21 @@
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             z-index: 1;
+        }
+
+        #postcard-info {
+            position: absolute;
+            top: 240px;
+            bottom: 35px;
+            left: 20px;
+            right: 20px;
+            align-items: center;
+        }
+
+        #postcard-info div {
+            margin: 0;
+            font-family: Open Sans, sans-serif, Arial;
+            text-align: center;
         }
 
         /* container */
@@ -92,7 +118,14 @@
     <div id="postcard">
         <div id="postcard-curtain"></div>
         <div id="profile"></div>
-
+        <div id="postcard-info">
+            <div style="font-size: 30px; font-weight: 500; color: #4d4d4d">
+                Daniel Liu
+            </div>
+            <div style="font-family: Ma Shan Zheng ;font-size: 30px; font-weight: 500; color: #4d4d4d">
+                刘闵
+            </div>
+        </div>
     </div>
 
     <main class="flex-shrink-0">
