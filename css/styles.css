@@ -6,6 +6,7 @@ body {
 
 /* page header part */
 #header {
+    /* position: fixed; */
     display: grid;
     background-color: cadetblue;
     height: 40px;
