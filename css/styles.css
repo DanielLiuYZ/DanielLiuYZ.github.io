@@ -43,9 +43,12 @@ body {
 
 /* page content */
 main > .container {
-    padding: 50px 35px 25px 35px;
+    padding: 20px 20px 20px 20px;
     background-color: white;
     max-width: 768px;
+    height: 200px;
     border: 1px solid #e0e0e0;
     box-shadow: 0 0 20px #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
