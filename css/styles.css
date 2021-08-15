@@ -6,10 +6,10 @@ body {
 
 /* page header part */
 #header {
-    /* position: fixed; */
     display: grid;
     background-color: cadetblue;
     height: 40px;
+    margin: 0px;
     column-gap: 0px;
     row-gap: 0px;
     grid-template-columns: 150px auto 120px 120px 120px 120px 120px ;
