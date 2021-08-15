@@ -9,7 +9,6 @@ body {
     display: grid;
     background-color: cadetblue;
     height: 40px;
-    margin: 0px;
     column-gap: 0px;
     row-gap: 0px;
     grid-template-columns: 150px auto 120px 120px 120px 120px 120px ;
@@ -47,7 +46,7 @@ main > .container {
     padding: 20px 20px 20px 20px;
     background-color: white;
     max-width: 768px;
-    height: 200px;
+    /* height: 200px; */
     border: 1px solid #e0e0e0;
     box-shadow: 0 0 20px #ddd;
     margin-top: 20px;

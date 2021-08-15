@@ -1,35 +1,115 @@
 <!DOCTYPE html>
 <head>
-    <title>Activities</title>
+    <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* postcard */
+        #postcard {
+            background-color: white;
+            position: fixed;
+            top: 70px;
+            left: 30px;
+            height: 500px;
+            width: 250px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 0 10px #ddd;
+            border-radius: 6px;
+        }
+
+        #profile {
+            position: absolute;
+            top: 35px;
+            left: 35px;
+            border-radius: 15px;
+            border:white 4px solid;
+            width:180px;
+            height:180px;
+            background: url("figs/profile.jpg") no-repeat center;
+            background-size:contain;
+            z-index: 2;
+        }
+
+        #postcard-curtain {
+            position: absolute;
+            background-color: #4d4d4d;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 125px;
+            width: 248px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            z-index: 1;
+        }
+
+        /* container */
+        .container-resume {
+            margin-left: 310px;
+            height: 200px;
+        }
+    </style>
+
+
 </head>
 <body lang="en">
 
-
     <!-- navigator -->
-    <div id="header">
-        <a href="index.html">
-            <div class="header-title">Daniel's Wiki</div>
-        </a>
-        <div class="header-title"></div>
-        <a href="index.html">
-            <div class="header-item">HOME</div>
-        </a>
-        <a href="academic.html">
-            <div class="header-item">ACADEMIC</div>
-        </a>
-        <a href="projects.html">
-            <div class="header-item">PROJECT</div>
-        </a>
-        <a href="notebooks.html">
-            <div class="header-item">NOTEBOOK</div>
-        </a>
-        <a href="about.html">
-            <div class="header-item">ABOUT</div>
-        </a>
+    <nav class="fixed-top">
+        <div id="header">
+            <a href="index.html">
+                <div class="header-title">Daniel's Wiki</div>
+            </a>
+            <div class="header-title"></div>
+            <a href="index.html">
+                <div class="header-item">HOME</div>
+            </a>
+            <a href="academic.html">
+                <div class="header-item">ACADEMIC</div>
+            </a>
+            <a href="projects.html">
+                <div class="header-item">PROJECTS</div>
+            </a>
+            <a href="archives.html">
+                <div class="header-item">ARCHIVES</div>
+            </a>
+            <a href="about.html">
+                <div class="header-item">ABOUT</div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- page content -->
+    <div id="postcard">
+        <div id="postcard-curtain"></div>
+        <div id="profile"></div>
+
     </div>
 
+    <main class="flex-shrink-0" style="margin-top: 70px">
+        
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+        <div class="container container-resume" position="relative">
+            ahahahaha
+        </div>
+        
+    </main>
 
 </body>
