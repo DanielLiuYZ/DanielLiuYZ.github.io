@@ -97,6 +97,32 @@
         .container-resume li {
             margin-bottom: 10px;
         }
+
+        .resume-item-heading {
+            position: relative;
+            height: 28px;
+        }
+
+        .resume-item-title {
+            font-size: 18px;
+            left: 0;
+        }
+
+        .resume-item-time {
+            font-size: 16px;
+            font-style: italic;
+            position: absolute;
+            top: 3px;
+            right: 0;
+            color:rgb(148, 148, 148);
+        }
+
+        .resume-item-body {
+            position: relative;
+            color: #646464;
+            /* margin-top: 5px; */
+        }
+
     </style>
 
 
@@ -154,12 +180,22 @@
             <hr>
             <ul>
                 <li>
-                    <div style="float:left">Nanjing University, Kuang Yaming Honors School</div>
-                    <i style="float:right; color:rgb(148, 148, 148);">2019.9 - &emsp;&emsp;&emsp;</i>
+                    <div class="resume-item-heading">
+                        <div class="resume-item-title">Kuang Yaming Honors School, Nanjing University</div>
+                        <div class="resume-item-time">2019.9 - &emsp;&emsp;&emsp;</div>
+                    </div>
+                    <div class="resume-item-body">
+                        B.S., Computer Science
+                    </div>
                 </li>
                 <li>
-                    <div style="float:left">Hanjiang High School</div>
-                    <i style="float:right; color:rgb(148, 148, 148);">2016.9 - 2019.6</i>
+                    <div class="resume-item-heading">
+                        <div class="resume-item-title">Hanjiang High School</div>
+                        <div class="resume-item-time">2016.9 - 2019.6</div>
+                    </div>
+                    <div class="resume-item-body">
+                        High School Education
+                    </div>
                 </li>
             </ul>
         </div>
@@ -167,6 +203,7 @@
         <div class="container container-resume" position="relative">
             <h1>Research Experience</h1>
             <hr>
+
         </div>
 
         <div class="container container-resume" position="relative">
