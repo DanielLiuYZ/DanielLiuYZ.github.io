@@ -42,8 +42,8 @@ body {
 }
 
 /* page content */
-main > .container {
-    padding: 30px 20px 30px 20px;
+.container {
+    padding: 30px 25px 30px 25px;
     background-color: white;
     max-width: 768px;
     border: 1px solid #e0e0e0;
@@ -52,4 +52,82 @@ main > .container {
     margin-bottom: 20px;
 }
 
+/* container fixed bar: on the top */
+.container-fixed-bar {
+    padding: 30px 25px 30px 25px;
+    background-color: white;
+    max-width: 768px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 20px #ddd;
+    margin: 70px auto 20px auto;
+    font-size: 18px;
+    color: #4d4d4d;
+}
 
+.container-fixed-bar h1 {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;;
+    font-size: 25px;
+    color: #4d4d4d;
+}
+
+.container-fixed-bar li {
+    margin-bottom: 10px;
+}
+
+
+/* container box: main information */
+.container-box {
+    padding: 30px 20px 30px 20px;
+    background-color: white;
+    max-width: 768px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 20px #ddd;
+    margin: 20px auto 20px auto;
+}
+
+.container-box:hover {
+    box-shadow: 0 0 20px rgb(200, 200, 200);
+}
+
+.container-box h1 {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;;
+    font-size: 25px;
+    color: #4d4d4d;
+}
+
+.container-box li {
+    margin-bottom: 10px;
+}
+
+.box-item-heading {
+    position: relative;
+}
+
+.box-item-heading a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.box-item-heading a:hover {
+    color: cadetblue;
+}
+
+.box-item-title {
+    font-size: 18px;
+    margin-right: 110px;
+    left: 0;
+}
+
+.box-item-time {
+    font-size: 16px;
+    font-style: italic;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color:rgb(148, 148, 148);
+}
+
+.box-item-body {
+    position: relative;
+    color: #646464;
+}
