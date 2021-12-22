@@ -1,6 +1,6 @@
 # Python
 
-Author: Daniel Liu
+Author: Damian Liu
 Contact me:  191240030@smail.nju.edu.cn
 Course: NJU AI Programming
 
